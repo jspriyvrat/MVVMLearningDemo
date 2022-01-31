@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         recyclerView=findViewById(R.id.recyclerView)
         progressBar=findViewById(R.id.progressBar)
+        setupUI()
+        setupViewModel()
+        setupObserver()
 
     }
     private fun setupUI() {
